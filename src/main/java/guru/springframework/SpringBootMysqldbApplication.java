@@ -8,15 +8,15 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 // URL: http://localhost:8080
 // URL: http://localhost:8080/product/list
 
-/* JAR version
+// JAR version
 @SpringBootApplication
 public class SpringBootMysqldbApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootMysqldbApplication.class, args);
 	}
-} */
+}
 
-// WAR version
+/* WAR version
 @SpringBootApplication
 public class SpringBootMysqldbApplication extends SpringBootServletInitializer {
 	@Override
@@ -26,4 +26,4 @@ public class SpringBootMysqldbApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootMysqldbApplication .class, args);
 	}
-}
+} */
